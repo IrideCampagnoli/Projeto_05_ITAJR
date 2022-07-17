@@ -1,0 +1,57 @@
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.Nav {
+  background-color: #00000045;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Nav a {
+  margin-right: 0%;
+}
+
+
+.Nav .site {
+  margin: auto 20px auto 40px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Nav li a {
+  text-decoration: none;
+  color:white;
+}
+
+.Nav a:hover{
+  opacity: 40%;
+  color: aqua;
+}
+
+.Nav ul {
+  min-width: 300px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 15px;  
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.Nav li {
+  margin-left: 20px;
+}
+
+.Nav li:hover{
+  opacity: 60%;
+  color: aqua;
+}
